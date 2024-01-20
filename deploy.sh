@@ -17,10 +17,10 @@ git checkout -b main
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://newhand.github.io
-# git push -f git@github.com:newhand/newhand.github.io.git main
+# if you are deploying to https://newhandarky.github.io
+# git push -f git@github.com:newhandarky/newhandarky.github.io.git main
 
-# if you are deploying to https://newhand.github.io/vite-deploy-sample
-git push -f git@github.com:newhand/vite-deploy-sample.git main:gh-pages
+# if you are deploying to https://newhandarky.github.io/vue-vite-sample
+git push -f git@github.com:newhandarky/vue-vite-sample.git main:gh-pages
 
 cd -

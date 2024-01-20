@@ -15,6 +15,8 @@ export default{
     console.log(import.meta.env.VITE_TEXT);
     const url = import.meta.env.VITE_PATH;
 
+    console.log("TEST");
+
     this.$http.get(url).then((res) => {
         // console.log(res.data)
         this.data = res.data.results[0]
